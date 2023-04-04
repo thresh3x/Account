@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/basic.css">
+    <link rel="stylesheet" href="/stylesheets/create.css">
+</head>
+<body>
+    <div class="header">
+        添加记录
+    </div>
+    <form class="form" action="/account" method="post">
+        <p>事项: </p><input type="text" name="title"><br>
+        <p>发生时间: </p><input type="date" name="time" value="2023-04-02"><br>
+        <p>类型: </p><select name="type" id="">
+            <option value="-1">支出</option>
+            <option value="1">收入</option>
+        </select><br>
+        <p>金额: </p><input type="text" name="account"><br>
+        <p>备注: </p><textarea name="remark" id="" cols="30" rows="6"></textarea><br>
+        <button>添加</button>
+    </form>
+
+</body>
+</html>

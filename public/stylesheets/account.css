@@ -1,0 +1,94 @@
+button {
+    padding: 5px 10px;
+    background-color: #bd0006;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #6b6b6b;
+}
+
+a:hover, button:hover {
+    color: #02bb05;
+}
+
+.logout {
+    margin: 0 auto;
+    width: 100px;
+    transform: translateX(250px);
+}
+
+.header > a {
+    margin-left: 400px;
+}
+
+.body {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.table {
+    border: 1px solid #bababa;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.table > .time {
+    padding: 15px;
+}
+
+.table > .time.output {
+    background-color: #fcc1c1;
+}
+
+.table > .time.input {
+    background-color: #c8fcc1;
+}
+
+.table > .detail {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.table > .detail > .text {
+    padding-left: 25px;
+    width: 300px;
+}
+
+.table > .detail > .put {
+    color: aliceblue;
+    padding: 3px 5px;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+.table > .detail > .put.in {
+    background-color:#02bb05
+}
+.table > .detail > .put.out {
+    background-color: #ffc641;
+}
+
+.table > .detail > .money {
+    width: 200px;
+    text-align: center;
+}
+
+.table > .detail .icon {
+    width: 20px;
+    height: 20px;
+    display: none;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 700;
+}
+
+.table:hover > .detail .icon {
+    display: block;
+}
